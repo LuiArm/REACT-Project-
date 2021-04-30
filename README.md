@@ -2,19 +2,25 @@
 
 ## Project Links
 
-- [add your github repo link]()
-- [add your deployment link]()
+- [add your github repo link](https://github.com/LuiArm/REACT-Project-)
+- [add your deployment link](https://modest-dijkstra-45d543.netlify.app/)
 
 ## Project Description
-
+My project will be a an application where you can look up the top ten Latin American Restaurants.
 
 ## API
 
-Use this section to include info about the API you have chosen and a code snippet of the data that it returns and is required for your project. 
+The API used for this project was created in AgilityCMS where all the information was created and where the API was generated.
 
 
 ```
-{data: {} }
+{data: {
+	aboutChef: "Guido Tassi trained at fine dining restaurant "
+	description: "An emblem of the Palermo neighbourhood"
+	location: "Buenos Aires, Argentina "
+	name: "Don Julio"
+	image: "url"
+} }
 ```
 
 
@@ -22,8 +28,9 @@ Use this section to include info about the API you have chosen and a code snippe
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- [Mobile](https://res.cloudinary.com/dr6sahlrw/image/upload/v1619817117/image0_fkpcpr.jpg)
+- [Web](https://res.cloudinary.com/dr6sahlrw/image/upload/v1619817111/image1_gy7h8z.jpg)
+- [Architecture](https://res.cloudinary.com/dr6sahlrw/image/upload/v1619817120/image2_m8cpan.jpg)
 
 
 ### MVP/PostMVP - 5min
@@ -31,13 +38,14 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
 
 #### MVP EXAMPLE
-- Find and use external api 
+- Create and use external api 
 - Render data on page 
+- Link to different pages 
 - Allow user to interact with the page
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Add a map API
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -46,21 +54,29 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 | Component | Description | 
 | --- | :---: |  
-| App | This will make the initial data pull and include React Router| 
+| App | This include React Router| 
 | Header | This will render the header include the nav | 
-| Footer | This will render the header include the nav | 
+| Main | This will render data and include router | 
+|Components | This will contain independent route |
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+|Finding Api  | H | 4hrs | 6+ | TBD| 
+|Rendering Data |H | 4hrs  |   hrs  | TBD |
+| Making Nav |  H |  3hrs   | hrs    | TBD    |
+| Making main | H | 3hrs| hrs | TBD |
+|Making Restaurant compenent | H |  4hrs  | hrs    |  TBD  |
+| Using route | H | 4hrs| hrs | TBD |
+| Styling | H   |   4+hrs  |  hrs   |   TBD   |
+| Total | H | 26+hrs| hrs | hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+Reactstrap
+
+
 
 ## Code Snippet
 
