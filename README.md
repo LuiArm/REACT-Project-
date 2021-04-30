@@ -7,7 +7,6 @@
 
 ## Project Description
 
-TBD
 
 ## API
 
