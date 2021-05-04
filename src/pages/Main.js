@@ -23,7 +23,10 @@ const Main = (props) => {
             const {name, location} = restaurant
 
             return (<Link to={`/restaurants/${name}`}>
+             <div>
+                <p>{name}</p>
                 <p>{location}</p>
+             </div>   
             </Link>)
         })
         }

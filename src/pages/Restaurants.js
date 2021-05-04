@@ -17,13 +17,23 @@ const Restaurants = (props) => {
             
     })
         const data = await response.json();
-        // console.log(data)
+       
         setRestaruant(data)
-        console.log(data)
+       console.log(data)
     }
+    
+
     useEffect(() => {getRestaurant()},[])
 
-    return <h1>World</h1>
-
+const loaded = () =>{
+    return (
+    <h1>heloo </h1>
+     )
+    }
+const loading = () => {
+    return <h1>...Un Momento...</h1>
 }
+    return restaurant ? loaded() : loading()
+}
+
 export default Restaurants
