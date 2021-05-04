@@ -14,10 +14,12 @@ function App() {
         <Route exact path="/">
           <Main />
         </Route>
-        <Route path="/restaurants/">
-         <Restaurants />
+        <Route path="/restaurants">
+          <Restaurants />
         </Route>
-          }
+        <Route path="/restaurant/:name"
+        render={(props) => <Restaurants {...props}/>
+        }         
         />
       </Switch>
     </div>
