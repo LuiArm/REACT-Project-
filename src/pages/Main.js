@@ -24,7 +24,7 @@ const Main = (props) => {
                     <img
                     className="d-block w-100"
 
-                    src="https://res.cloudinary.com/dr6sahlrw/image/upload/v1620259472/tijana-drndarski-9xgHnuy45Ks-unsplash_hzqhjb.jpg"
+                    src="https://res.cloudinary.com/dr6sahlrw/image/upload/c_scale,h_4281,w_3412/v1620259472/tijana-drndarski-9xgHnuy45Ks-unsplash_hzqhjb.jpg"
                     alt="Second slide"
                     />
 
@@ -36,7 +36,7 @@ const Main = (props) => {
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src="https://res.cloudinary.com/dr6sahlrw/image/upload/v1620259232/rodion-kutsaev-EPwuZxdketc-unsplash_juuiij.jpg"
+                    src="https://res.cloudinary.com/dr6sahlrw/image/upload/c_scale,h_4263,w_3424/v1620270926/carlos-aranda-S8Z51EjK5yY-unsplash_tdo6p3.jpg"
                     alt="Third slide"
                     />
 
