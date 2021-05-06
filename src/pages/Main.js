@@ -5,7 +5,7 @@ import Carousel from 'react-bootstrap/Carousel'
 
 const Main = (props) => {
     return(
-        <Container fluid="md" style={{padding: 0 }}>
+        <Container fluid="md" style={{padding: "0" }}>
              {/* <h1>Main page</h1>  
              <Button>Cheese</Button> */}
              <Carousel fade className="carousel">
