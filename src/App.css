@@ -2,7 +2,6 @@
   text-align: center;
 }
 body {
-background-color: red;
 background-size: cover;
 }
 
@@ -47,3 +46,47 @@ background-size: cover;
    font-family: 'Fjalla One', sans-serif ;
 
   }
+
+.restaurant {
+  background-color: #1b1b1b;
+  height: 750px;
+}
+
+.restText {
+  font-family: 'Karla';
+  color: seashell;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.restText2 {
+  font-family: 'Karla';
+  color: seashell;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.resthead {
+  font-family: 'Fjalla One';
+  color: white;
+}
+
+.resthead2 {
+  font-family: 'Fjalla One';
+  color: white;
+  margin-top: 40px; 
+}
+
+.nav {
+  background-color: #391f0d;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home, .about {
+  color: seashell;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+}
