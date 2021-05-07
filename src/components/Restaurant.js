@@ -52,7 +52,7 @@ const loaded = () =>{
     
     return (
         <div className="restaurant">
-            {/* <img>{selectedRestaurant.fields.image.url}</img> */}
+            <img className="mainimage" src={selectedRestaurant.fields.image.url} />
             <h2 className="resthead">About the Chef:</h2>
             <p className="restText">{selectedRestaurant.fields.aboutChef}</p>
             <h2 className="resthead2">About the Restaurant:</h2>
