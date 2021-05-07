@@ -2,22 +2,28 @@ import React from 'react';
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
 import Carousel from 'react-bootstrap/Carousel'
+import Image from 'react-bootstrap/Image'
+
 
 const Main = (props) => {
     return(
-        <Container fluid="md" style={{padding: "0" }}>
-             {/* <h1>Main page</h1>  
-             <Button>Cheese</Button> */}
-             <Carousel fade className="carousel">
-                <Carousel.Item>
-                    <img
+        <body id="mainBody">
+        <Container id="container" fluid="md" style={{padding: "0" }}>
+        <h1 id="mainh1">Hello and Welcome to Mexico's top ten restauraunts!<br>
+        </br> Stick around and see what food critics have to say!</h1>
+        <p id="mainP">Below you will find the top 3 staple ingredients found in most of Mexico's cuisine that were present before the Spanish arrived.</p>
+         <div id="main">
+            
+               <Carousel fade className="carousel">
+                 <Carousel.Item>
+                     <img
                     className="d-block w-100"
                     src="https://res.cloudinary.com/dr6sahlrw/image/upload/v1620259248/pablo-merchan-montes-SCbq6uKCyMY-unsplash_q574js.jpg"
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h2>Frijol/Beans</h2>
+                    <h4>--There are 200 varietes of beans--</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -29,8 +35,8 @@ const Main = (props) => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h2>Chillies/hot peppers</h2>
+                    <h4>--There are 150 varieties of chillies--</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -41,13 +47,17 @@ const Main = (props) => {
                     />
 
                     <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h2>Maize/Corn</h2>
+                    <h4>--There are 59 varieties of corn--</h4>
                     </Carousel.Caption>
                 </Carousel.Item>
-                </Carousel>
+                </Carousel> 
+              </div>  
+              
         </Container>
-    )   
+    </body>
+    )
+       
 }
 
 export default Main

@@ -36,7 +36,7 @@ const Restaurants = (props) => {
                             <Card.Text>{location}
                             </Card.Text>
                             <Link to={`/restaurant/${name}`}>
-                                <Button id="button" variant="primary">Explore!</Button>
+                                <Button id="button" variant="primary">SEE MORE</Button>
                             </Link>
                         </Card.Body>
                     </Card>   
